@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/Rectangle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-jogo {
+    margin-top: 40px;
+}
+
+.header-jogo img {
+    width: 400px;
+}
+
+.nivel {
+    width: 200px;
+    padding: 10px;
+    background-color: #2B0E11;
+    border-radius: 5px;
+    border: #EE9430 solid 2px;
+    outline: none;
+    color: aliceblue;
+}
+
+::placeholder {
+    color: #EE9430;
+}
+
+/* main */
+
+.main {
+    padding-bottom: 70px;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.content-1 {
+   width: 150px;
+   height: 150px;
+   background-color: #0C0C0C;
+   border-radius: 5px;
+   padding-left: 30px;
+   padding-top: 20px;
+   
+}
+
+.content-1 img {
+    width: 100px;
+}
+
+.content-1 .olho {
+width: 80px;
+padding-left: 20px;
+padding-top: 20px;
+}
+
+/* content-2*/
+
+.content-2 {
+    width: 150px;
+    height: 150px;
+    background-color: #0C0C0C;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.content-2 img {
+    width: 100px;
+}
+
+/* content-3*/
+
+.content-3 {
+    width: 150px;
+    height: 150px;
+    background-color: #0C0C0C;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.content-3 img {
+    width: 100px;
+}
+
+.content-3 .interrog {
+    width: 75px;
+    padding-left: 20px;
+}
+
+/* responsividade */
+
+@media (max-width:829px) {
+    body {
+        width: 100%;
+        height: 160vh;
+    }
+
+}
+
+@media (max-width:490px) {
+    body {
+        width: 100%;
+        height: 250vh;
+    }
+
+}
+
+    @media (max-width:460px) {
+        .header-jogo img {
+            width: 230px;
+        }
+}
